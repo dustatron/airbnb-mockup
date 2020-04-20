@@ -71,3 +71,15 @@ a:hover {
 a:visited {
   color: black;
 }
+
+.offerUp {
+  margin: 55px 25px;
+  font-size: 30px;
+  width: 30%;
+  background: -webkit-linear-gradient(left, black, rgb(212, 5, 84));
+  background: -o-linear-gradient(right, black, rgb(212, 5, 84));
+  background: -moz-linear-gradient(right, black, rgb(212, 5, 84));
+  background: linear-gradient(to right, black, rgb(212, 5, 84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

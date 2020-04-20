@@ -1,7 +1,11 @@
 import React from "react";
 
-function Offer() {
-  return <h1> Offer </h1>;
+function Offer(props) {
+  return (
+    <div className="the-offer">
+      <img src={"https://source.unsplash.com/300x300/?" + props.keyWordFear} />
+    </div>
+  );
 }
 
 export default Offer;
