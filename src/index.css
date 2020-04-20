@@ -13,3 +13,61 @@ code {
 .logo {
   max-width: 40px;
 }
+.menu {
+  margin: 40px 0px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.menu-box {
+  margin: auto;
+  display: inline-block;
+  width: 30%;
+  height: 4rem;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.menu-box--search {
+  float: right;
+  width: 10%;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.menu-box--middle {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.menu-links--list {
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+}
+
+.menu-links--items {
+  display: inline-block;
+  padding: 5px 40px;
+}
+
+.underline {
+  border-bottom: 2px solid black;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+
+a:visited {
+  color: black;
+}
